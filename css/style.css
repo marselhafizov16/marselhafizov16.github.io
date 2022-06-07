@@ -1,0 +1,208 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    position: relative;
+}
+
+nav {
+    height: 50px;
+    background: #212121;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    padding: 13px 70px;
+    margin: 0 auto;
+    list-style-type: none;
+}
+
+.menu .menu_link {
+    font-weight: 300;
+    font-size: 15px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.menu .menu_item {
+    border-right: 2px dotted black;
+    padding-right: 45px;
+}
+
+.subheader {
+    position: absolute;
+    width: 100%;
+    min-height: 87px;
+    background: rgba(0,0,0, 0.6);
+}
+
+.subheader .subheader_logo {
+    display: block;
+    max-width: 100%;
+    margin-top: 18px;
+}
+
+.subheader .subheader_official {
+    opacity: 0.5;
+    font-weight: 100;
+    font-size: 13px;
+    color: #FFFFFF;
+    margin-top: 6px;
+}
+
+.subheader .subheader_coll {
+    margin-top: 17px;
+    font-weight: 300;
+    font-size: 12px;
+    text-align: right;
+    color: #FFFFFF;
+}
+
+.subheader .subheader_phone {
+    font-weight: 400;
+    font-size: 22px;
+    display: block;
+    text-align: right;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-top: 1px;
+    text-decoration: none;
+}
+
+.subheader .subheader_btn {
+    width: 172px;
+    height: 46px;
+    background: linear-gradient(0deg, #1EACC7 0%, #4CE2FF 100%);
+    box-shadow: inset 0px -3px 0px rgba(0, 0, 0, 0.12);
+    border: none;
+    border-radius: 4px;
+
+    font-weight: 400;
+    font-size: 14px;
+    margin-top: 19px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.21);
+}
+
+.promo {
+    min-height: 800px;
+    background: url(../img/section1.jpg) center center/cover no-repeat;
+    padding: 150px 0 180px 0;
+}
+
+.promo .promo_header {
+    font-weight: 700;
+    font-size: 60px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    line-height: 60px;
+    margin: 0;
+}
+
+.promo .promo_subheader {
+    font-weight: 700;
+    font-size: 36px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    line-height: 36px;
+    margin: 0;
+    margin-top: 22px;
+}
+
+.promo .promo_dscr {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 25px;
+}
+
+.promo .promo_btn {
+    display: block;
+    margin: 115px auto 0 auto;
+    width: 259px;
+    height: 63px;
+    background: linear-gradient(0deg, #1EACC7 0%, #4CE2FF 100%);
+    box-shadow: inset 0px -4px 0px rgba(0, 0, 0, 0.12);
+    border: none;
+    border-radius: 4px;
+
+    font-weight: 400;
+    font-size: 18px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.21);
+}
+
+.benefit {
+    min-height: 5250px;
+    background: #FFFFFF;
+    padding: 20px 0 64px 0;
+}
+
+.benefit .benefit_start {
+    margin: 0 auto;
+    width: 112px;
+    height: 24px;
+    line-height: 23px;
+    background: #000000;
+    font-size: 11px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.benefit .benefit_head {
+    margin-top: 33px;
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 48px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    color: #222222;
+}
+
+.benefit .benefit_block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 16px;
+}
+
+.benefit .benefit_block .benefit_round {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 26px;
+    width: 113px;
+    height: 113px;
+    background-color: #1eacc7;
+    border-radius: 100%;
+}
+
+.benefit .benefit_block .benefit_dscr {
+    width: 371px;
+}
+
+.benefit .benefit_block .benefit_dscr .benefit_subtitle {
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 21px;
+    color: #1EACC7;
+}
+
+.benefit .benefit_block .benefit_dscr .benefit_text {
+    font-weight: 300;
+    font-size: 15px;
+    color: #202020;
+}
